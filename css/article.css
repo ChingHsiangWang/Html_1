@@ -68,7 +68,7 @@
     border-bottom-style: none;
     text-shadow: 1px 1px 2px #000;
     margin: none;
-    overflow-y:scroll;
+    overflow-y: scroll;
 }
 
 /*設定button樣式*/
@@ -110,4 +110,18 @@
     font: bold 4vmin "Noto Sans TC", sans-serif;
     text-shadow: 1px 1px 2px #E5E5E5;
     margin: 0.2em;
+}
+
+
+#article_31 {
+    /*插入背景圖片*/
+    background-image: url("../images/article_31.jpg");
+    /*圖片只出現一次，不重複*/
+    background-repeat: no-repeat;
+    /*背景圖片上下左右置中*/
+    background-position: center center;
+    /*圖片滿版，若要等比例呈現圖片則把cover改為contain*/
+    background-size: cover;
+    /*圖片不隨滾軸移動*/
+    background-attachment: fixed;
 }
