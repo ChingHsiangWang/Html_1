@@ -9,8 +9,8 @@
 
 /*框出一個在flexible container中漂移的box，文字及物件置中、由左至右排列*/
 .section_block {
-    width: 70vw;
-    height: 70vh;
+    width: 75vw;
+    height: 85vh;
     display: flex;
     text-align: center;
     justify-content: center;
